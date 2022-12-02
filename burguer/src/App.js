@@ -2,6 +2,7 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 import Layout from "./components/Layout";
 import Menu from "./pages/Menu";
 import Login from "./pages/Login";
+import List from "./pages/List";
 
 function App() {
   return (
@@ -9,14 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Login />} />
-
           <Route path="menu" element={<Menu />} />
-          {/* <Route path="dashboard" element={<Dashboard />} /> */}
-
-          {/* Using path="*"" means "match anything", so this route
-                acts like a catch-all for URLs that we don't have explicit
-                routes for. */}
-          {/* <Route path="*" element={<NoMatch />} /> */}
+          <Route path="order-list" element={<List />} />
         </Route>
       </Routes>
     </div>

@@ -1,0 +1,57 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  width: 90%;
+  height: 13%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.title > h1 {
+  color: #f25019;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 40px;
+  margin-block: auto;
+}
+
+.title > img {
+  width: auto;
+  height: 40px;
+  margin-block: auto;
+  cursor: pointer;
+}
+
+.table {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 95%;
+  height: 74%;
+  margin: auto;
+  margin-block: auto;
+  border-radius: 40px;
+  backdrop-filter: blur(15px);
+  max-width: 100%;
+  overflow: scroll;
+}
+
+.nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-inline: auto;
+}
+
+.nav > th {
+  width: 100%;
+  max-width: 100%;
+}
