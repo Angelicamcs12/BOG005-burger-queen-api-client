@@ -1,0 +1,115 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css");
+
+button {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  width: 90%;
+  height: 13%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.title > h1 {
+  color: #f25019;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 40px;
+  margin-block: auto;
+}
+
+.title > img {
+  width: auto;
+  height: 40px;
+  margin-block: auto;
+  cursor: pointer;
+}
+
+.tableContainer {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 95%;
+  height: 74%;
+  margin: auto;
+  border-radius: 40px;
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  /* overflow: scroll; */
+}
+
+.tableContainer > table {
+  width: 95%;
+  margin: auto;
+}
+
+.nav {
+  color: #2a1e17;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 25px;
+  position: relative;
+}
+
+.nav::after {
+  content: "";
+  background-color: #f25019;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0px;
+  height: 3px;
+  width: 100%;
+}
+
+.table > tr td {
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.list {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 20px;
+  color: #2a1e17;
+}
+
+.list > td > i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  width: 95%;
+  height: 13%;
+  display: flex;
+  justify-content: end;
+  margin: auto;
+}
+
+.buttonContainer > button {
+  width: 350px;
+  margin-block: auto;
+  padding: 10px;
+  background: #f25019;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.buttonContainer > button > i {
+  font-size: 25px;
+  color: #fff;
+  height: 25px;
+}
